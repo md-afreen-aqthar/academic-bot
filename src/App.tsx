@@ -18,7 +18,7 @@ function App() {
 
   return (
     <div className="bg-gray-100">
-      {/* Navbar */}
+
       <nav className="bg-white shadow-lg">
         <div className="container mx-auto p-5 flex justify-between items-center">
           <div className="text-2xl font-bold text-blue-600">Campus Bot</div>
@@ -32,7 +32,6 @@ function App() {
           </div>
         </div>
 
-        {/* Mobile Menu */}
         {menuOpen && (
           <div className="md:hidden bg-white shadow-lg">
             <ul className="flex flex-col items-center space-y-4 py-4">
@@ -44,7 +43,7 @@ function App() {
         )}
       </nav>
 
-      {/* Hero Section */}
+
       <section id="home" className="h-screen bg-cover bg-center" style={{ backgroundImage: `url(${heroImage})` }}>
         <div className="flex flex-col justify-center items-center h-full bg-black bg-opacity-60 text-white">
           <h1 className="text-5xl font-bold mb-6">Bot for Better Campus Life</h1>
@@ -55,7 +54,7 @@ function App() {
         </div>
       </section>
 
-      {/* Features Section */}
+  
       <section id="features" className="py-20 bg-gray-100 text-center">
         <div className="max-w-6xl mx-auto">
           <h2 className="text-4xl font-bold mb-10 text-blue-600">Features</h2>
@@ -88,7 +87,6 @@ function App() {
         </div>
       </section>
 
-      {/* Footer */}
       <footer id="contact" className="bg-gray-800 text-white py-6">
         <div className="max-w-4xl mx-auto text-center">
           <p>&copy; 2024 Campus Bot | All Rights Reserved</p>
