@@ -14,13 +14,10 @@ export function PlaceholdersAndVanishInputDemo() {
 
   const [showText, setShowText] = useState(false);
 
-  const handleChange = (e) => {
-    console.log(e.target.value);
+  const handleChange = () => {
   };
 
-  const onSubmit = (e) => {
-    e.preventDefault();
-    console.log("submitted");
+  const onSubmit = () => {
     setShowText(true);
   };
 

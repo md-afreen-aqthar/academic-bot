@@ -3,7 +3,6 @@
 import React, { useState } from 'react';
 import { PlaceholdersAndVanishInputDemo } from './PlaceholdersAndVanishInputDemo';
 import { FiSun, FiMoon } from 'react-icons/fi';
-import image from './image.png';
 export default function App() {
   const [darkMode, setDarkMode] = useState(true);
 
@@ -56,7 +55,7 @@ export default function App() {
                 className="w-full h-96 object-cover rounded-t-lg"
               />
               <h3 className="text-2xl font-bold mt-4">Music Concert</h3>
-              <p className="mt-2">Live music from top student bands. Don't miss it!</p>
+              <p className="mt-2">Live music from top student bands. Dont miss it!</p>
             </div>
 
             <div className="bg-white dark:bg-gray-700 p-6 rounded-lg shadow-lg">
